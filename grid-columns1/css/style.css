@@ -1,0 +1,35 @@
+body {
+  font-family: Georgia, "Times New Roman", Times, serif;
+  background-image: linear-gradient(to top, #e6e9f0 0%, #eef1f5 100%);
+}
+
+h1 {
+  text-align: center;
+  cursor: pointer;
+  color: #61a5c2;
+}
+
+h2 {
+  margin-top: 0px;
+}
+
+a {
+  background: #61a5c2;
+  color: white;
+  text-decoration: none;
+  padding: 10px 20px;
+  border-radius: 15px;
+}
+.item {
+  background-color: #f7f7f7;
+  border: 1px solid #e7e7e7;
+  padding: 20px;
+  border-radius: 4px;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: 300px 300px 300px; /* Define o numero de colunas que o layout irá ter e define o espaço que as colunas irão ocupar*/
+  gap: 20px; /*separa os elementos*/
+  justify-content: center;
+}
