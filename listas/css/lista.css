@@ -1,0 +1,25 @@
+/* nav{
+  margin-top: 30px;
+} */
+ul{
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
+
+li{
+  margin: 0 10px;
+}
+
+a{
+  text-decoration: none;
+  background-color: lightpink;
+  padding: 10px 20px;
+  display: block;
+  color: #ffffff;
+}
+
+a:hover{
+  background-color: lightskyblue;
+}
