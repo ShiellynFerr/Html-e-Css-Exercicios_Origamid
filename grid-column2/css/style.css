@@ -1,0 +1,25 @@
+body {
+  margin: 40px;
+}
+.grid {
+  display: grid;
+  gap: 20px;
+  grid-template-columns: 2fr 1fr;
+  place-items: center;
+}
+.preco {
+  background-color: #ddd;
+  place-self: start end;
+}
+img {
+  max-width: 100%;
+}
+
+h1 {
+  background-color: blueviolet;
+}
+
+/* Começa na linha 1 até a 3 (2 colunas)*/
+.foto {
+  grid-column: 1/ 2;
+}
