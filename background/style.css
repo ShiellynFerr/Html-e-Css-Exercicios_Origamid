@@ -1,0 +1,24 @@
+.bicicleta{
+  background-color: lightseagreen;
+  background-image: url("./img/pattern.svg");
+}
+
+.pattern{
+  height: 300px;
+  background-color: lightcoral;
+  background-image: url("./img/pattern.svg");
+  background-repeat: repeat;
+  /* background-size: 70px; */
+}
+
+.linear{
+  height: 200px;
+  background-image: linear-gradient(to right,
+lightblue, lightpink, lightseagreen);
+}
+
+.radial{
+  height: 200px;
+  background-image: radial-gradient(circle, lightgoldenrodyellow, yellow, lightpink);
+}
+
