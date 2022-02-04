@@ -63,6 +63,15 @@ p, h1, h2, h3{
   background-color: #fff;
 }
 
+@media(max-width: 1000px) {
+  .conteudo-vantagem{
+    grid-template-columns: 1fr;
+  }
+  .conteudo-principal-subtitulo{
+    text-align: center;
+  }
+}
+
 .introducao-site{
   padding: 40px;
   text-align: right;
@@ -82,6 +91,11 @@ p, h1, h2, h3{
   position: absolute;
   top: 30px;
   right: -30px;
+}
+
+.img-introducao img{
+height: 100%;
+object-fit: cover;
 }
 
 .botao{
@@ -141,3 +155,4 @@ background-color: #f7f7f7;
   justify-items: center;
   gap: 60px;
 }
+
