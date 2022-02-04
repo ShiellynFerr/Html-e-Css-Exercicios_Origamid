@@ -1,0 +1,13 @@
+{
+  "folders": [
+	{
+		"path": ".."
+	},
+	{
+		"path": "..\\..\\background"
+	}
+],
+  "settings": {
+    "liveServer.settings.multiRootWorkspaceName": "bikecraft"
+  }
+}

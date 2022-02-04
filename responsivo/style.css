@@ -1,0 +1,36 @@
+/* tornando a imagem responsiva */
+img{
+  max-width: 100%;
+  display: block;
+}
+
+div{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 2rem;
+}
+
+h1{
+  grid-column: 1/ -1;
+}
+
+/* abaixo de 600px/ menor que */
+@media(max-width: 600px) {
+  div{
+    grid-template-columns: 1fr ;
+  }
+  h1{
+    color: lightblue;
+  }
+}
+
+/* maior que */
+@media(min-width: 1000px){
+  html{
+    font-size: 150%;
+  }
+}
+
+.galeria {
+  grid-template-columns: repeat(auto-fit, 150px);
+}
