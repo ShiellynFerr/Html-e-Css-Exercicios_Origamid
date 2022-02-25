@@ -4,7 +4,6 @@ body{
   font-family: 'Fira Sans', Arial, sans-serif;
   margin: 0px;
   color: #141414;
-  margin-bottom: 1000px;
 }
 
 h1,h2,h3, p {
@@ -19,6 +18,7 @@ ul{
 
 img{
   max-width: 100%;
+  height: auto;
   display: block;
 }
 
