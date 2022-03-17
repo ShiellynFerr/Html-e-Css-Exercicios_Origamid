@@ -1,0 +1,22 @@
+/* Propriedades Customizadas */
+/* Também conhecidas como variáveis css (custom properties), permite definirmos valores no CSS que podem ser reutilizados no nosso código.
+
+A propriedade é herdada pelos elementos filhos. É comum definirmos as mesmas nos elementos :root ou html, assim teremos acesso à propriedade em todos os elementos do site. */
+
+:root {
+  --roxo:#8148d8;
+  --fonte-grande:3rem;
+ --borda:border: 8px solid #000;
+}
+
+h1 {
+  --rosa: #e76175;
+  color: var(--roxo); 
+  background-color: var(--rosa);
+  text-align: center;
+}
+
+p {
+  font-size: calc(var(--fonte-grande)/ 2);
+  color: var(--roxo);
+}
