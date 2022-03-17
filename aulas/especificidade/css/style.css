@@ -1,0 +1,29 @@
+body {
+  font-size: 2rem;
+}
+
+.titulo.teste{
+  color: #000000;
+}
+
+#intro #servicos {
+  color: #adff2f;
+}
+
+.titulo{
+  color: #e76175;
+  padding: 5px;
+}
+
+#produtos {
+  color: #8a2be2;
+}
+
+html body section h2 {
+  border-left: 8px solid lightskyblue ;
+}
+
+ body section h2 {
+  border-left: 8px solid lightpink ;
+}
+
