@@ -20,5 +20,6 @@ lightblue, lightpink, lightseagreen);
 .radial{
   height: 200px;
   background-image: radial-gradient(circle, lightgoldenrodyellow, yellow, lightpink);
+  border: 1px solid black;
 }
 
